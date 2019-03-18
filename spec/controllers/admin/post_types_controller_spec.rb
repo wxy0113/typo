@@ -33,7 +33,6 @@ describe Admin::PostTypesController do
     it 'should render template new' do
       assert_template 'new'
     end
-
   end
 
   describe "test_edit" do
